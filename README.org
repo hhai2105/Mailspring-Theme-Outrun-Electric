@@ -1,0 +1,7 @@
+#+title: Mailspring Outrun Electric Theme
+#+author: Hai Nguyen
+
+This is a mailspring theme based on emacs' doom-theme's doom-outrun-electric.
+
+#+caption: Example of the Theme
+[[./screenshot/Outrun.png]]

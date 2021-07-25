@@ -3,50 +3,75 @@ Include the standard variables from Mailspring's base theme:
 https://github.com/Foundry376/Mailspring/blob/master/app/static/style/base/ui-variables.less
 */
 @import "base/ui-variables";
+@bg         :#0c0a20;
+@bg-alt     :#090819;
+@base0      :#131033;
+@base1      :#1f1147;
+@base2      :#110d26;
+@base3      :#3b4167;
+@base4      :#2d2844;
+@base5      :#BA45A3;
+@base6      :#6A6EA3;
+@base7      :#6564D1;
+@base8      :#919ad9;
+@fg-alt     :#7984D1;
+@fg         :#f2f3f7;
+@grey       :#546A90;
+@red        :#e61f44;
+@orange     :#cf433e;
+@green      :#a7da1e;
+@teal       :#A875FF;
+@yellow     :#ffd400;
+@blue       :#1ea8fc;
+@dark-blue  :#3F88AD;
+@magenta    :#ff2afc;
+@violet     :#df85ff;
+@cyan       :#42c6ff;
+@dark-cyan  :#204052;
 
-@gray-base: #ffffff;
+@gray-base: @grey;
 @gray-darker: darken(@gray-base, 13.5%);
 @gray-dark: darken(@gray-base, 20%);
 @gray: darken(@gray-base, 33.5%);
 @gray-light: darken(@gray-base, 46.7%);
 @gray-lighter: darken(@gray-base, 92.5%);
-@white: #0a0a0a;
+@white: @fg-alt;
 
-@accent-primary: #58b660;
+@accent-primary: @blue;
 @accent-primary-dark: darken(@accent-primary, 10%);
 
-@background-primary: #212121;
-@background-off-primary: #212121;
-@background-secondary: #121212;
-@background-tertiary: #6d7987;
+@background-primary: @bg;
+@background-off-primary: @bg-alt;
+@background-secondary: @base0;
+@background-tertiary: @base1;
 
 @border-color-primary: lighten(@background-primary, 10%);
 @border-color-secondary: lighten(@background-secondary, 10%);
 @border-color-tertiary: lighten(@background-tertiary, 10%);
-@border-color-divider: @border-color-secondary;
+@border-color-divider: @base5;
 
-@text-color: #eee;
+@text-color: @fg;
 @text-color-subtle: fadeout(@text-color, 20%);
 @text-color-very-subtle: fadeout(@text-color, 40%);
-@text-color-inverse: white;
+@text-color-inverse: @bg-alt;
 @text-color-inverse-subtle: fadeout(@text-color-inverse, 20%);
 @text-color-inverse-very-subtle: fadeout(@text-color-inverse, 50%);
-@text-color-heading: #fff;
+@text-color-heading: @fg;
 
 @text-color-link: @accent-primary;
 @text-color-link-hover: @accent-primary-dark;
 @text-color-link-active: @accent-primary-dark;
 
 @btn-default-bg-color: lighten(@background-primary, 5%);
-@dropdown-default-bg-color: #404040;
+@dropdown-default-bg-color: @base2;
 
-@input-bg: #2e2e2e;
+@input-bg: @base3;
 @input-border: @border-color-divider;
 
-@list-bg: #333;
-@list-border: #383838;
+@list-bg: @base4;
+@list-border: @base6;
 @list-selected-color: @text-color-inverse;
 @list-focused-color: @text-color;
 
-@toolbar-background-color: #121212;
-@panel-background-color: #121212;
+@toolbar-background-color: @base7;
+@panel-background-color: @base1;
